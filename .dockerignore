@@ -1,0 +1,16 @@
+.git
+.gitignore
+README.md
+CHANGELOG.md
+CONTRIBUTING.md
+*.md
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+build/
+CMakeCache.txt
+CMakeFiles/
+*.log
+*.tmp

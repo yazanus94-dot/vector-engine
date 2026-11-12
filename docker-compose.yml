@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  vector-engine:
+    build: .
+    container_name: vector-engine
+    restart: "no"
+    command: ["cmake", "--build", "build"]
